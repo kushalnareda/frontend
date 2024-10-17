@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",                      // Set to ESNext to support the latest ECMAScript features
+    "lib": ["DOM", "DOM.Iterable", "ESNext"], // Include the necessary libraries
+    "jsx": "react-jsx",                      // Enable JSX support for React
+    "module": "ESNext",                      // Use ESNext module resolution
+    "moduleResolution": "Node",              // Resolve modules like Node.js
+    "esModuleInterop": true,                 // Enable compatibility for ES modules
+    "skipLibCheck": true,                    // Skip type checking for all declaration files (.d.ts)
+    "strict": true,                          // Enable all strict type-checking options
+    "allowSyntheticDefaultImports": true,    // Allows default imports from modules without default export
+    "forceConsistentCasingInFileNames": true, // Enforces consistent casing for import paths
+    "isolatedModules": true,                 // Ensures each file can be transpiled independently
+    "noEmit": true,                          // Prevent emitting compiled JS files (handled by Vite)
+    "resolveJsonModule": true,               // Allows importing JSON modules
+    "incremental": true                      // Enable incremental compilation
+  },
+  "include": ["src"],                        // Specify the directory to include
+  "exclude": ["node_modules"]                // Exclude the node_modules directory
+}
+

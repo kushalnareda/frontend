@@ -1,0 +1,70 @@
+.task-card {
+  width: 400px;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.task-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; 
+}
+
+.task-id-title {
+  display: flex;
+  flex-direction: column; 
+  text-align: left; 
+}
+
+.task-id {
+  font-size: 18px;
+  color: #8a8a8a;
+}
+
+.task-title {
+  font-size: 20px;
+  font-weight: 500;
+  color: #333;
+  margin-top: 5px; /* Adds space between task-id and task-title */
+}
+
+.user-avatar {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.task-footer {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.task-badge {
+  width: 24px;
+  height: 24px;
+  border: 1px solid #e0e0e0;
+  background-color: #ffffff;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.request-type {
+  background-color: #fffdfd;
+  height: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  padding: 2px 12px;
+  font-size: 14px;
+  color: #888;
+}

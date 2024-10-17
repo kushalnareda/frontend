@@ -1,0 +1,90 @@
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+  }
+  
+  .display-button {
+    display: flex;
+    align-items: center; /* Aligns icons and text in the center vertically */
+    background-color: white;
+    color: #333;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  .display-button:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .display-button .icon-left,
+  .display-button .icon-right {
+    display: flex; /* Ensures the SVGs are treated as flex items */
+    align-items: center; /* Vertically centers the icons */
+  }
+  
+  .display-button .icon-left {
+    margin-right: 8px; /* Space between the icon and the text */
+  }
+  
+  .display-button .icon-right {
+    margin-left: 8px; /* Space between the text and the arrow */
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    background-color: rgba(255, 255, 255, 0.804);
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    width: 250px; /* Adjust as necessary for your layout */
+    display: flex;
+    flex-direction: column; /* Keeps sections stacked */
+    gap: 15px;
+  }
+  
+  .dropdown-section {
+    display: flex;
+    align-items: center; /* Vertically aligns the label and the dropdown */
+    justify-content: space-between; /* Ensures proper spacing between label and select box */
+  }
+  
+  .dropdown-section label {
+    font-size: 14px;
+    color: #888;
+    margin-right: 10px; /* Adds space between the label and the select box */
+    min-width: 100px; /* Ensures labels are consistent in width */
+  }
+  
+  .dropdown-section select {
+    padding: 8px 12px;
+    font-size: 14px;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    background-color: #fff;
+    appearance: none;
+    cursor: pointer;
+    width: 100%;
+    background-image: url('/Users/kushalsinghnareda/Documents/GitHub/Apport/frontend/src/assets/icons/down.svg'); /* Path to your SVG file */
+    background-repeat: no-repeat;
+    background-position: right 10px center; /* Positioning the icon */
+    background-size: 12px 12px;
+  }
+  
+  
+  
